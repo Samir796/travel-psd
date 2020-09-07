@@ -1,0 +1,294 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+}
+
+
+.h-90 {
+  height: 65px;
+}
+.w-90 {
+  width: 65px;
+}
+.bg-home {
+  background: url("../img/bg-home.jpg") fixed center center;
+  background-size: cover;
+  position: relative;
+}
+.bg-home2 {
+  background: url("../img/bg-home2.jpg") fixed center center;
+  background-size: cover;
+  position: relative;
+}
+.bg-home3 {
+  background: url("../img/bg-home3.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+.bg-search {
+  background: #fff;
+  width: 100%;
+  z-index: 6;
+}
+
+.bg-input {
+  background: #f2f2f2;
+  height: 55px;
+}
+
+.bg-card {
+  background: #fff;
+  position: relative;
+  height: 590px;
+  width: 100%;
+}
+
+.obj-fit {
+  object-fit: cover;
+  width: 100%;
+}
+.btn-card {
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+  background: #006fe6;
+}
+
+.right-25 {
+  right: 25px;
+}
+.top-18 {
+  top: 18px;
+}
+.right-10 {
+  right: 10px;
+}
+.bg-blueline {
+  background-color: rgb(71, 160, 255);
+  opacity: 0.851;
+  position: absolute;
+  bottom: 0;
+  height: 195px;
+  z-index: 5;
+}
+
+.w-55 {
+  width: 55%;
+}
+
+.clr-606060 {
+  color: #606060 !important;
+}
+
+::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #606060;
+}
+
+.bg-tour {
+  object-fit: cover;
+  position: relative;
+}
+
+.border-tour {
+  border: none;
+  border-radius: 50%;
+  width: 256px;
+  height: 256px;
+}
+
+/*FONT SIZE*/
+
+.ff-opensans {
+  font-family: "Open Sans", sans-serif;
+}
+.fw-700 {
+  font-weight: 700;
+}
+
+
+
+.clr-aaaaaa {
+  color: #aaaaaa;
+}
+
+
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.hide-bar {
+  position: relative;
+  background: #11151d;
+  opacity: 0.85;
+}
+.list{
+  display: flex;
+  float: right;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+.list-2{
+  margin-bottom: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.square-45 {
+  width: 45px !important;
+  height: 45px !important;
+}
+
+.list-item{
+  margin-left: 35px;
+}
+
+.border-r {
+  border-right: 2px solid #3f444b;
+  height: 100%;
+  padding-right: 20px;
+}
+.hide-menu {
+  position: relative;
+  background: #11151d;
+  opacity: 0.85;
+  height: 75px;
+}
+.border-t {
+  border-top: 2px solid #3f444b;
+  width: 100%;
+}
+.clr-007bff {
+  color: #007bff;
+}
+
+.tour-circle {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.l-height {
+  line-height: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.top-n8 {
+  top: -8px;
+}
+.opacity-5{
+  opacity: 0.5;
+}
+
+.opacity-7 {
+  opacity: 0.7;
+}
+.opacity-85 {
+  opacity: 0.85;
+}
+.bg-black{
+  background-color: black ;
+}
+.bg-white {
+  background-color: #fff;
+}
+.bg-47a0ff {
+  background-color: #47a0ff;
+}
+
+.padding-0{
+  padding: 0;
+}
+
+
+.border-white { border-color: white }
+.border-2 { border-width: 2px !important; }
+
+.align-center-absolute{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+}
+
+.btn-hover{
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.block-hover:hover .btn-hover{
+  opacity: 1;
+  padding: auto ;
+}
+
+.block-hover:hover .overlay{
+  opacity: 0.8;
+}
+
+.clr-353535{
+  color: #353535;
+}
+.clr-47a0ff{
+  color: #47a0ff !important;
+}
+.clr-5f5f5f{
+  color: #5f5f5f !important;
+}
+
+.bg-home4{
+  background: url("../img/bg-home4.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.br-circle{
+  border: none;
+  border-radius: 50%;
+  background-color: #47a0ff;
+  height: 157px;
+  width: 157px;
+}
+.mail-submit{
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  height: 60px;
+  width: 100%;
+  padding-right: 110px;
+  outline: 0;
+}
+.btn-submit{
+  top: 20%;
+  right: 10px;
+  width: 90px;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.border-foot-t{
+  border-top: 1px solid #d0d0d0;
+  width: 100%;
+  
+}
+
+@media (min-width: 992px) {
+  .my-nav a {
+    font-family: Tahoma, sans-serif;
+    padding: 0 30px !important;
+  }
+}
+
+.navbar-dark .my-navbar-toggler { border: none }
+
+
+
+
